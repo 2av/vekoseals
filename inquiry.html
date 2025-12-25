@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Inquiry Form - Contact Vako Seals for product inquiries">
+    <title>Inquiry - Vako Seals Pvt. Ltd.</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-section">
+                <img src="images/logo.gif" alt="Vako Seals Logo">
+                <img src="images/VAKO-.gif" alt="VAKO" style="height: 50px; margin: 0 10px;">
+                <img src="images/vako3.gif" alt="SEALS" style="height: 50px;">
+            </div>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav>
+                <div class="nav-container">
+                    <ul class="nav-menu">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="capabilities.html">CAPABILITIES</a></li>
+                        <li><a href="product.html">PRODUCTS</a></li>
+                        <li><a href="inquiry.html" class="active">INQUIRY</a></li>
+                        <li><a href="contact.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Product Inquiry</h1>
+            <p>Fill out the form below and we'll get back to you soon</p>
+        </section>
+
+        <div class="form-container">
+            <form method="post" action="thankyou.html">
+                <div class="form-group">
+                    <label for="companyname">Company Name <span class="required">*</span></label>
+                    <input type="text" id="companyname" name="Companyname" maxlength="30" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="contactperson">Contact Person <span class="required">*</span></label>
+                    <input type="text" id="contactperson" name="Contactperson" maxlength="30" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="address">Address</label>
+                    <textarea id="address" name="address" rows="3"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="">Select a Country</option>
+                        <option value="India" selected>India</option>
+                        <option value="United States">United States</option>
+                        <option value="United Kingdom">United Kingdom</option>
+                        <option value="Germany">Germany</option>
+                        <option value="France">France</option>
+                        <option value="Japan">Japan</option>
+                        <option value="China">China</option>
+                        <option value="Australia">Australia</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Brazil">Brazil</option>
+                        <option value="Russia">Russia</option>
+                        <option value="South Africa">South Africa</option>
+                        <option value="UAE">United Arab Emirates</option>
+                        <option value="Saudi Arabia">Saudi Arabia</option>
+                        <option value="Singapore">Singapore</option>
+                        <option value="Malaysia">Malaysia</option>
+                        <option value="Thailand">Thailand</option>
+                        <option value="Indonesia">Indonesia</option>
+                        <option value="Philippines">Philippines</option>
+                        <option value="Vietnam">Vietnam</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="telephone">Telephone No</label>
+                    <input type="tel" id="telephone" name="telephone" maxlength="15">
+                </div>
+
+                <div class="form-group">
+                    <label for="fax">Fax No</label>
+                    <input type="tel" id="fax" name="fax" maxlength="15">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email-Id <span class="required">*</span></label>
+                    <input type="email" id="email" name="email" maxlength="50" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject <span class="required">*</span></label>
+                    <input type="text" id="subject" name="subject" maxlength="50" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="inquiry">Inquiry</label>
+                    <textarea id="inquiry" name="inquiry" rows="5"></textarea>
+                </div>
+
+                <div class="form-group text-center">
+                    <button type="submit" class="btn">Submit</button>
+                    <button type="reset" class="btn btn-secondary">Reset</button>
+                </div>
+            </form>
+        </div>
+
+        <section class="content-section">
+            <div class="news-box">
+                <h3>Need Help?</h3>
+                <p>Kindly fill in the Inquiry Form above to enable us to get in touch with you. Our team will respond to your inquiry as soon as possible.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="iso-badge">An ISO 9001 Certified Company</div>
+            <div class="footer-links">
+                <a href="index.html">Home</a> |
+                <a href="about.html">About Us</a> |
+                <a href="capabilities.html">Capabilities</a> |
+                <a href="product.html">Products</a> |
+                <a href="inquiry.html">Inquiry</a> |
+                <a href="contact.html">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/slider.js"></script>
+</body>
+</html>
+
